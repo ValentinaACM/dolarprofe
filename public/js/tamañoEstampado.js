@@ -150,7 +150,7 @@ const obtenerDatoApi = async () => {
     const datos = await respuestaApi.json();
 
     // Accede al elemento en la posición 100 del array de datos obtenido
-    const valorEspecifico = datos[100];
+    const valorEspecifico = datos[0];
 
     // Imprime en la consola el valor específico obtenido de la API
     console.log(valorEspecifico);
